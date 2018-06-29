@@ -13,9 +13,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="15dp"
+    android:height="12dp"
+    android:viewportWidth="15"
+    android:viewportHeight="12"
+	android:tint="?android:attr/colorAccent">
 
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true"
-          android:drawable="@drawable/btn_keyboard_action_key_bg" />
-    <item android:drawable="@drawable/btn_keyboard_action_key_bg" />
-</selector>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M290 630 l0 -120 -145 0 c-80 0 -145 -3 -145 -6 0 -10 464 -499 476 -502 6 -2 119 111 250 250 l239 253 -152 3 -153 3 0 119 0 120 -185 0 -185 0 0 -120z" />
+</vector>
